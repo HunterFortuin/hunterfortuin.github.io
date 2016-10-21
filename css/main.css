@@ -215,6 +215,10 @@ html body .container {
 	padding: 5px 10px;
 }
 
+.pure-g [class *="pure-u"] {
+	font-family: 'Lato', sans-serif !important;
+}
+
 /* ==========================================================================
  Helper classes
  ========================================================================== */
