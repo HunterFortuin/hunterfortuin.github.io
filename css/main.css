@@ -219,6 +219,23 @@ html body .container {
 	font-family: 'Lato', sans-serif !important;
 }
 
+@media only screen and (max-width: 865px) {
+	.left-content {
+		width: 100%;
+		top: -100px;
+		padding-top: 100px;
+	}
+
+	.right-content {
+		width: 100%;
+		overflow: inherit;
+	}
+
+	.right-content-row {
+		margin-top: -50px;
+	}
+}
+
 /* ==========================================================================
  Helper classes
  ========================================================================== */
